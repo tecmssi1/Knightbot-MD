@@ -93,7 +93,7 @@ function isAutoStatusEnabled() {
 async function handleStatusUpdate(sock, status) {
     try {
         if (!isAutoStatusEnabled()) {
-            console.log('❌ Auto status view is disabled');
+            console.log('❌ Auto status view is enable');
             return;
         }
 
